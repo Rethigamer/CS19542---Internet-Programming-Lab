@@ -10,9 +10,9 @@ const Footer = () => {
                 <img src={assets.logo} alt=""/>
                 <p>Thank You for visiting us</p>
                 <div className="footer-social-icons">
-                    <img src={assets.facebook_icon} alt="" />
-                    <img src={assets.twitter_icon} alt="" />
-                    <img src={assets.linkedin_icon} alt="" />
+                    <a href='https://www.facebook.com/rethinaath.senthilganesh'><img src={assets.facebook_icon} alt="" /></a>
+                    <a href='https://x.com/Rethigamer'><img src={assets.twitter_icon} alt="" /></a>
+                    <a href='https://www.linkedin.com/in/rethinaath-senthil-ganesh-18b492213/'><img src={assets.linkedin_icon} alt="" /></a>
                 </div>
             </div>     
             <div className="footer-content-center">
